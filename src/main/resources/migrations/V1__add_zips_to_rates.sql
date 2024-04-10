@@ -1,0 +1,4 @@
+ALTER TABLE rates
+ADD COLUMN origin_zip TEXT NOT NULL,
+ADD COLUMN destination_zip TEXT NOT NULL
+;
